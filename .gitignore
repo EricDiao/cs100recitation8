@@ -17,7 +17,7 @@ _deps
 .idea/
 out/
 gen/
-cmake-build-debug/
+cmake-build-*/
 ### C++ template
 # Prerequisites
 *.d
