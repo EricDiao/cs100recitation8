@@ -8,6 +8,7 @@
 
 #include <ostream>
 
+// TODO Finish this class
 template<class Key, class Element>
 class map {
 public:
@@ -22,26 +23,20 @@ public:
 
     // constructors
     map();
-
     map(map other);
-
     explicit map(int initial_capacity);
-
     virtual ~map();
 
     // status query
     bool isEmpty();
-
     int size();
 
     // iterators
     iterator begin();
-
     iterator end();
 
     // removal
     void erase(Key k);
-
     void clear();
 
     // operators
